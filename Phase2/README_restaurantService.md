@@ -27,4 +27,4 @@ This microservice is built using **Spring Boot** and integrates with a **User Se
 
 ## Accessing API Documentation  
 Once the application is running, you can explore the API documentation using Swagger at:  
-📌 [Swagger UI](http://localhost:8081/swagger-ui.html)  
+http://localhost:8081/swagger-ui.html
