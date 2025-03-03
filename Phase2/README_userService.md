@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Spring Boot-based User Management System with RESTful APIs, built using Java and MySQL. It allows users to register, update their profiles, and delete accounts while ensuring authentication, role-based access, and user preferences management. The system leverages Spring Boot for backend functionality, Spring Data JPA for seamless database interaction, and Spring Security for authentication and authorization.
+This is a Spring Boot-based User Management System with RESTful APIs, built using Java and MySQL. It allows users to register, update their profiles, and delete accounts while ensuring authentication, role-based access, and user preferences management. The system leverages **Spring Boot** for backend functionality, **Spring Data JPA** for seamless database interaction, and **Swagger documentation** for easy API exploration.
 
 ## Features
 
