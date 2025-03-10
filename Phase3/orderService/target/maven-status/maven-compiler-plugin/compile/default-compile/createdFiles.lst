@@ -1,0 +1,14 @@
+com\example\orderService\entity\OrderItem.class
+com\example\orderService\service\OrderService.class
+com\example\orderService\feign\UserServiceClient.class
+com\example\orderService\controller\OrderController.class
+com\example\orderService\feign\RestaurantServiceClient.class
+com\example\orderService\exception\GlobalExceptionHandler.class
+com\example\orderService\service\OrderServiceImpl.class
+com\example\orderService\dto\OrderRequestDTO.class
+com\example\orderService\dto\MenuItemDTO.class
+com\example\orderService\entity\Order.class
+com\example\orderService\OrderServiceApplication.class
+com\example\orderService\repository\OrderRepository.class
+com\example\orderService\dto\RestaurantDTO.class
+com\example\orderService\dto\UserDTO.class
