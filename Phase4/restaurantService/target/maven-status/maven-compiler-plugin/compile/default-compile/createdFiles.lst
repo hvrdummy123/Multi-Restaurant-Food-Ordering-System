@@ -1,0 +1,13 @@
+com\example\restaurantService\entity\MenuItem.class
+com\example\restaurantService\RestaurantServiceApplication.class
+com\example\restaurantService\controller\RestaurantController.class
+com\example\restaurantService\UserDTO.class
+com\example\restaurantService\service\RestaurantServiceImpl.class
+com\example\restaurantService\repository\RestaurantRepository.class
+com\example\restaurantService\service\MenuItemServiceImpl.class
+com\example\restaurantService\UserFeignClient.class
+com\example\restaurantService\entity\Restaurant.class
+com\example\restaurantService\service\RestaurantService.class
+com\example\restaurantService\repository\MenuItemRepository.class
+com\example\restaurantService\service\MenuItemService.class
+com\example\restaurantService\controller\MenuItemController.class
