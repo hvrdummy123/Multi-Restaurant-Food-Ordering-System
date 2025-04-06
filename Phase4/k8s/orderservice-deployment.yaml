@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orderservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orderservice
+  template:
+    metadata:
+      labels:
+        app: orderservice
+    spec:
+      containers:
+        - name: orderservice
+          image: hvrdummy123/orderservice:latest
+          ports:
+            - containerPort: 8082
+          env:
+            - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+              value: http://eurekaserver:8761/eureka
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: orderservice
+spec:
+  selector:
+    app: orderservice
+  ports:
+    - port: 8082
+      targetPort: 8082
+  type: ClusterIP

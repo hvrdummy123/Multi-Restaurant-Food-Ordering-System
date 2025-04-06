@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: restaurantservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: restaurantservice
+  template:
+    metadata:
+      labels:
+        app: restaurantservice
+    spec:
+      containers:
+        - name: restaurantservice
+          image: hvrdummy123/restaurantservice:latest
+          ports:
+            - containerPort: 8081
+          env:
+            - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+              value: http://eurekaserver:8761/eureka
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: restaurantservice
+spec:
+  selector:
+    app: restaurantservice
+  ports:
+    - port: 8081
+      targetPort: 8081
+  type: ClusterIP
