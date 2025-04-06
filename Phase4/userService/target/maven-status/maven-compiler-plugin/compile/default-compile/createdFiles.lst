@@ -1,0 +1,9 @@
+com\example\userService\UserServiceApplication.class
+com\example\userService\entity\User.class
+com\example\userService\service\UserServiceImpl.class
+com\example\userService\service\UserService.class
+com\example\userService\repository\UserRepository.class
+com\example\userService\repository\UserPreferenceRepository.class
+com\example\userService\controller\UserController.class
+com\example\userService\entity\UserPreference.class
+com\example\userService\entity\Role.class
